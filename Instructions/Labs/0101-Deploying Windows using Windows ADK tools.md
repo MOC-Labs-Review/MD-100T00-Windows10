@@ -116,7 +116,7 @@ sysprep
 
 5. On the **Specify Generation** page, ensure that **Generation 1** is selected and then select **Next**.
 
-6. On the **Assign Memory** page, next to **Startup memory** type **8192** and then select **Next**.
+6. On the **Assign Memory** page, next to **Startup memory** type **4096** and then select **Next**.
 
 7. On the **Configure Networking** page, next to **Connection**, select **Internal Network** and then select **Next**.
 
