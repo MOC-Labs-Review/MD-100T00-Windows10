@@ -46,10 +46,9 @@ You need to join SEA-WS1 to the Contoso.com domain. This will enable central man
 
 6. Right-click This PC and then select **Properties**.
 
-7. On the **System** page, take note of the **Computer name, domain, and workgroup settings**. The Domain shows Contoso.com.
+7. On the **About** page, take note of the **Device name and Full device name**. The Domain shows Contoso.com.
 
-
-8. Close the System and File Explorer windows.
+8. Close the About and File Explorer windows.
 
 9. Right-click the **Start** button and then select **Computer Management**.
 
