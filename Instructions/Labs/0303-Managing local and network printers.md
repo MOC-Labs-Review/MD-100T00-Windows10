@@ -92,6 +92,8 @@ The Contoso Marketing department has purchased a new printer that uses a Microso
 
 11. Verify that the printer has a green check mark next to it, which indicates that it is the default printer.
 
+_**Note**: This will take several minutes to complete._
+
 ### Task 5: Print a document, and manage a print job
 
 1. On SEA-CL1, on the taskbar, in the **Type here to search** text box, type **notepad**, and then press Enter.
