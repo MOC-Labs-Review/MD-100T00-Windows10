@@ -18,7 +18,7 @@ _Dependency Notice: This lab requires that a DNS CNAME entry for intranet.Contos
 
 3. In the Microsoft Edge window, select **Complete setup**, select **Focused**, and then select **Confirm**.
 
-4. Select **Continue without signing in**.
+4. Do not sign in to syncronize and close the popup.
 
 5. In the Microsoft Edge Address bar, type **edge://compat/enterprise**, and then press **Enter**. Notice that the Enterprise Mode Site List does not contain any entries.
 
@@ -111,7 +111,7 @@ _Dependency Notice: This lab requires that a DNS CNAME entry for intranet.Contos
 
 4. On the task bar, select **Microsoft Edge**.
 
-5. In the Microsoft Edge Address bar, type **edge://compat/enterprise**, and then press **Enter**. Notice that the Enterprise Mode Site List contains <http://intranet.contoso.com/ContosoEnterpriseMode.xml>.
+5. In the Microsoft Edge Address bar, type **edge://compat/enterprise**, and then press **Enter**. Notice that the Enterprise Mode Site List contains <http://intranet.contoso.com/ContosoEnterpriseMode.xml>. If it does not appear immediately, click **Force update**.
 
 6. In the Microsoft Edge Address bar, type **<http://intranet.Contoso.com>**, and then press **Enter**.
 
