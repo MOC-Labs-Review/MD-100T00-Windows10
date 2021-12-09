@@ -77,12 +77,16 @@ Loadstate \\10.10.0.10\Labfiles\Install\MigrationStore\Win81 /i:migapp.xml /i:mi
 
 12. Restore **Computer Management** and refresh the **Users** folder. Notice that LocalUser1 and LocalUser2 are both available.
 
-13. At the Protected Content Migration notice, select **Cancel**.
+13. Open the **Admin** folder.
+
+14. At the Protected Content Migration notice, select **Continue**. 
+
+15. Open the **Desktop** folder.
 
     *Notice the desktop icons and the DemoFile.txt file migrated from the old computer.*
 
-15. Shut down Computer1.
+16. Shut down Computer1.
 
-16. On SEA-SVR2, close Hyper-V Manager.
+17. On SEA-SVR2, close Hyper-V Manager.
 
 **END OF LAB**
