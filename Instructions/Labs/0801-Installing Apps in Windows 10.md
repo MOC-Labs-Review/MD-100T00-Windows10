@@ -16,7 +16,7 @@ You need to test the download and update functionality of the Microsoft App Stor
 
 *Note: In some situations, the Windows Update service may be disabled. Use the following steps to validate and enable the Windows update service if needed. Not that this is not necessary to run in typical Windows 10 scenarios.*
 
-1. Sign in to **SEA-WS1** as **Admin** with the password of **Pa55w.rd**.
+1. Sign in to **SEA-WS1** as **.\Admin** with the password of **Pa55w.rd**.
 
 2. Right-click **Start**, and then select **Windows PowerShell (Admin)**.
 
@@ -35,7 +35,7 @@ Set-Service wuauserv -Startuptype Manual
 
 1. Sign in to **SEA-WS1** with your Microsoft account and the PIN **1029**.
 
-2. In the taskbar, select the **Microsoft Store** icon.
+2. Click **Start**, type **Store** and then select **Microsoft Store**.
 
 3. In the Microsoft Store app, select **Search**, type **Microsoft To Do**, and then select **Microsoft To Do: Lists, Tasks & Reminders**.
 
@@ -83,7 +83,9 @@ You have been asked to configure the deployment of the Office 365 apps included 
 
 2. In the taskbar, select the **Microsoft Edge** icon.
 
-3. In the address bar, type **<http://portal.office.com>**.
+3. In the address bar, type **http://portal.office.com**.
+
+    **Note**: If you are signed in automatically to your Microsoft account, sign out.
 
 4. In the **Sign in** dialog box, enter your admin email address as provided by your instructor. It should be in the form of admin@M365xXXXXXX.onmicrosoft.com and then select **Next**.
 
@@ -111,7 +113,7 @@ You have been asked to configure the deployment of the Office 365 apps included 
 
 3. On the Office installation options page, under Feature updates, select **Once a month (Monthly Enterprise Channel)**.
 
-4. Under Office apps that users can install, remove the check box next to **Skype for Business (Standalone)**, and then select **Save**.
+4. Select the **Installation** tab, then remove the check box next to **Skype for Business (Standalone)**, and then select **Save**.
 
 5. Close the Office installation options page.
 
@@ -123,7 +125,7 @@ You have been asked to configure the deployment of the Office 365 apps included 
 
 1. On SEA-WS1, in the taskbar, select the **Microsoft Edge** icon.
 
-2. In the address bar, type **<http://portal.office.com>**.
+2. In the address bar, type **http://portal.office.com**.
 
 3. On the Pick an account prompt, select **Use another account**.
 
