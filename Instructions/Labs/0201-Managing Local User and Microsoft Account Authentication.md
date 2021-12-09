@@ -117,15 +117,17 @@ You need to create two new local user accounts on SEA-WS1. User1 will be a local
 
 6. In the **Are you sure you want to switch to a local account** page, select **Next**.
 
-7. On Windows Security page, enter **1029** for your PIN.
+7. On the Windows Security prompt, click **More choices**, and then select **PIN**.
 
-8. In the Enter your local account info page, configure the following and then select **Next**:
+8. On Windows Security page, enter **1029** for your PIN.
+
+9. In the Enter your local account info page, configure the following and then select **Next**:
     - User Name: User1
     - New password: Pa55w.rd
     - Confirm password: Pa55w.rd
     - Password hint: default
 
-9. Select **Sign out and finish**.
+10. Select **Sign out and finish**.
 
 **Results**: After completing this exercise you have successfully configured and managed local accounts and assigned a Microsoft account to a Windows 10 device.
 
