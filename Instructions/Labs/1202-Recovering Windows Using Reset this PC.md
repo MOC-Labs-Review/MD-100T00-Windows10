@@ -32,7 +32,7 @@ You discover that SEA-CL2 is having intermittent issues. Repeated attempts have 
 
 11. On the Reset this PC dialog box, select **Keep my files**.
 
-12. When prompted to select where to reinstall Windows from, select **Local reinstall**.
+12. When prompted to select where to reinstall Windows from, select **Local reinstall**, and then select **Next**.
 
 13. On the Ready to reset this PC page, select **View apps that will be removed**. Take note of the apps and then select **Back**.
 
