@@ -112,7 +112,7 @@ You have a new Windows 10 device that you would like to join to your Azure AD te
 
 9. In the Microsoft Azure portal, at the top of the page, select **Contoso**.
 
-10. On the **Contoso** page, under **Manage**, select **Devices**. Notice that SEA-WS3 is listed with a join type of **Azure AD joined**.
+10. On the **Contoso** page, under **Manage**, select **Devices**, and then select **All devices**. Notice that SEA-WS3 is listed with a join type of **Azure AD joined**.
 
 11. Close Microsoft Edge and then sign out of SEA-CL1.
 
