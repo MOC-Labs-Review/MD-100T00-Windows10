@@ -130,7 +130,7 @@ sysprep
 8. On the **Connect Virtual Hard Disk** page, select **Create a virtual hard disk** and enter the following and then click **Next**:
 
    - Name: Computer1.vhdx
-   - Location: E:\\Labfiles\\VirtualMachines
+   - Location: E:\\Labfiles\\VirtualMachines\Computer1\Virtual\Hard\Disks\
    - Size: 60 GB
 
 9. On the Installation Options page, select **Install an operating system from a bootable CD/DVD-ROM** and configure the following:
@@ -199,7 +199,7 @@ sysprep
 
     `bcdboot G:\Windows`
 
-21. Restore the Computer1 window and then from the **Acton** menu, select **Reset**. In the message box, select **Reset**. Computer1 restarts. It will take several minutes for the computer to initialize, and will restart.
+21. In the **Computer1 on SEA-SVR2 - Virtual Machine Connection** window and then from the **Acton** menu, select **Reset**. In the message box, select **Reset**. Computer1 restarts. It will take several minutes for the computer to initialize, and will restart.
 
 ### Task 6: Validate the image
 
@@ -245,7 +245,7 @@ sysprep
 
 16. Select **Restart later**.
 
-17. Shut down Computer1.
+17. Shut down Computer1 and close the **Computer1 on SEA-SVR2 - Virtual Machine Connection** window.
 
 18. On SEA-SVR2, leave Hyper-V Manager open for the next practice lab.
 
