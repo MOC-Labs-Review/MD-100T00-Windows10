@@ -15,13 +15,16 @@ You have deployed a new Windows 10 computer named Computer1. You need to migrate
 3. In Hyper-V Manager, select **SEA-SVR2** and then under **Virtual Machines** select **Win81Source**.
 4. From the **Action** menu, select **Connect**, and then select **Start**. After the virtual machine starts, maximize the **Win81Source on SEA-SVR2 - Virtual Machine Connection** window.
 5. Sign in to **Win81Source** as **Admin** with the password of **Pa55w.rd**.
-6. Right-click the **desktop**, hover over the **New** menu item, and then select **Text Document**. Type **Demofile** and press **Enter**.
-7. Double-click **Demofile.txt** and type some random text and then save the file. There should be several items on the desktop including DemoFile.txt and various desktop icons.
-8. On the desktop, right-click **This PC** and then select **Manage**.
-9. Expand **Local Users and Groups**, and then select **Users**. Notice the local accounts including Admin, LocalUser1 and LocalUser2.
-10. Close **Computer Management**.
-11. Right-click **Start** and then select **Command Prompt (Admin)** . In the **User Account Control** window select **Yes**.
-12. At the command prompt, type the following command, and then press **Enter**:
+
+   >**Note**: The **Win81Source on Sea-SVR2 - Virtual Machine Connection** window does not open in full screen.  The Start menu and taskbar is that of **SEA-SVR2**.  In the  **Win81Source on Sea-SVR2 - Virtual Machine Connection** window, in the menu, select **View**, and then **Full screen mode**.  The Start and Taskbar will now be that of Win81Source.
+   
+7. Right-click the **desktop**, hover over the **New** menu item, and then select **Text Document**. Type **Demofile** and press **Enter**.
+8. Double-click **Demofile.txt** and type some random text and then save the file. There should be several items on the desktop including DemoFile.txt and various desktop icons.
+9. On the desktop, right-click **This PC** and then select **Manage**.
+10. Expand **Local Users and Groups**, and then select **Users**. Notice the local accounts including Admin, LocalUser1 and LocalUser2.
+11. Close **Computer Management**.
+12. Right-click **Start** and then select **Command Prompt (Admin)** . In the **User Account Control** window select **Yes**.
+13. At the command prompt, type the following command, and then press **Enter**:
 
 ```
 Net Use F: \\10.10.0.10\Labfiles\Install\USMT /user:Contoso\Administrator Pa55w.rd
@@ -77,15 +80,15 @@ Loadstate \\10.10.0.10\Labfiles\Install\MigrationStore\Win81 /i:migapp.xml /i:mi
 
 12. Restore **Computer Management** and refresh the **Users** folder. Notice that LocalUser1 and LocalUser2 are both available.
 
-13. Open the **Admin** folder.
+13. On the Desktop, open the **Admin** folder.
 
 14. At the Protected Content Migration notice, select **Continue**. 
 
 15. Open the **Desktop** folder.
 
-    *Notice the desktop icons and the DemoFile.txt file migrated from the old computer.*
+    *Notice the Desktop icons and DemoFile.txt have file migrated from the old computer.*
 
-16. Shut down Computer1.
+16. Shut down Computer1 and close the Computer1 on SEA-SVR2 - Virtual Machine Connection window.
 
 17. On SEA-SVR2, close Hyper-V Manager.
 
