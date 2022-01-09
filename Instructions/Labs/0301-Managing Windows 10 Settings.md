@@ -36,7 +36,7 @@ You need to use Windows Settings to validate protection settings, device specifi
 
 1. Select **Start** and type **Control Panel**. Press **Enter**.
 
-2. In the Control Panel window, select **Hardware** and then select **Power Options**.
+2. In the Control Panel window, select **Hardware and Sound** and then select **Power Options**.
 
 3. Select **Create a power plan.**
 
