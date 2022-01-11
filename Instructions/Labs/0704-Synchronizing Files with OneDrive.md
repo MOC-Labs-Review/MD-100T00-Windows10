@@ -16,7 +16,7 @@ Your organization would like to leverage OneDrive as a method for accessing user
 
 2. On the task bar, select **File Explorer**, and then select the **OneDrive** node.
 
-_**Note**: The OneDrive node in File Explorer might take several minutes to appear. Please wait for it to appear before proceeding. If it takes longer than 15 minutes, sign out, and then sign back in by using your Microsoft account._
+_**Note**: The OneDrive node in File Explorer might take several minutes to appear. Please wait for it to appear before proceeding. If it takes longer than 15 minutes, sign out, and then sign back in by using your Microsoft account. If you are prompted to provide your email address, use the Microsoft account that you signed in with._
 
 3. In the File Explorer console tree, expand **OneDrive**, and then select the **Documents** folder.
 
