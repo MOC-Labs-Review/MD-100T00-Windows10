@@ -102,7 +102,7 @@ An additional request has been made to protect specific files being added to SEA
 
 5. On the **Backup options** page, in the **Back up these folders** section, select **Add a folder**, in the **Folder** box, type **C:\\Reports**, select **Choose this folder**, and then close the **Settings** window.
 
-6. In the **File History** window**,** in the **File History is on** section, select **Run now**.
+6. In the **File History** window, in the **File History is on** section, select **Run now**.
 
 7. In File Explorer, in the details pane, right-click **Report.txt**, select **Properties**, select the **Previous Versions** tab, verify that there is now one previous version, and then select **OK**.
 
