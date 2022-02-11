@@ -39,13 +39,13 @@ Set-Service wuauserv -Startuptype Manual
 
 3. In the Microsoft Store app, select **Search**, type **Microsoft To Do**, and then select **Microsoft To Do: Lists, Tasks & Reminders**.
 
-4. Select **Get**.  
+4. Select **Install**.  
 
    *Note: If prompted by the Your account is missing some key info dialog box, complete the information regarding Birthdate and Country/Region and select **Next**.*
 
 5. If a **Try again later** dialog box appears, select **Close**.
 
-6. Wait for the download and installation to finish and then then select **Launch**.
+6. Wait for the download and installation to finish and then then select **Open**.
 
 7. In the message dialog box, select **No** and then close **Microsoft To Do**.
 
@@ -53,21 +53,19 @@ Set-Service wuauserv -Startuptype Manual
 
 ### Task 2: Configure app updates
 
-1. In the **Microsoft Store** app, select the the **See more** ellipsis symbol on the menu bar, and then select **Settings**.
+1. In the **Microsoft Store** app, select your initials on the menu bar, and then select **App Settings**.
 
 2. In **Settings**, under **App updates**, verify that **Update apps automatically** is set is enabled.
 
-3. In the **Microsoft Store** app, select the **See more** icon on the menu bar, and then select **Downloads and updates**. Notice that there are several apps waiting to be updated.
+3. In the **Microsoft Store** app, select the **Library** icon on the menu bar. Notice that there are several apps waiting to be updated.
 
 4. Select **Update all**.
 
-5. After the updates start, select **Pause all**.
+5. Select **Start**, right-click **Feedback Hub**, and then select **Uninstall**.
 
-6. Select **Start**, right-click **Feedback Hub**, and then select **Uninstall**.
+6. In the **This app and its related info will be uninstalled** dialog box, select **Uninstall**.
 
-7. In the **This app and its related info will be uninstalled** dialog box, select **Uninstall**.
-
-8. Sign out of SEA-WS1.
+7. Sign out of SEA-WS1.
 
 **Results**: After completing this exercise, you will have installed a Microsoft Store app, managed Microsoft Store app updates, and uninstalled an app.
 
