@@ -77,7 +77,7 @@ Loadstate \\10.10.0.10\Labfiles\Install\MigrationStore\Win81 /i:migapp.xml /i:mi
 
 12. Restore **Computer Management** and refresh the **Users** folder. Notice that LocalUser1 and LocalUser2 are both available.
 
-13. Open the **Admin** folder.
+13. In File Explorer, navigate to **C:\Windows\Users\Admin**.
 
 14. At the Protected Content Migration notice, select **Continue**. 
 
