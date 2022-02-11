@@ -86,7 +86,9 @@ Get-ExecutionPolicy
 Set-ExecutionPolicy Unrestricted
 ```
 
-6. Confirm that the execution policy is now **Unrestricted**.
+6. At the confirmation prompt, type **Y** and then select **Enter**.
+
+7. Confirm that the execution policy is now **Unrestricted**.
 
 7. At the PowerShell window, launch Notepad by typing the following command and then press **Enter**:
 
